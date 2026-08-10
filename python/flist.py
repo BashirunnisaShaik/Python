@@ -1,0 +1,13 @@
+l2=[]
+l2.append(1000)
+print(l2)
+l2.append("bashir")
+print(l2)
+l2.extend((2000,3000,40000))
+print(l2)
+l2.insert(1,"abcc")
+print(l2)
+print(l2.pop())
+print(l2.remove("bashir"))
+l3=l2.copy()
+print(l3)
